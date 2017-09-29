@@ -100,7 +100,7 @@ window.onload = function(){
 	$.ajax(
 		{
 		type:"get",
-		url:"js/new_product.json",
+		url:"mock/new_product.json",
 		dataType:"json",
 		success:function(data){
 			newproduct();
@@ -130,7 +130,7 @@ window.onload = function(){
 	$.ajax(
 		{
 		type:"get",
-		url:"js/today_product.json",
+		url:"mock/today_product.json",
 		dataType:"json",
 		success:function(data){
 			todayproduct();
@@ -158,7 +158,7 @@ window.onload = function(){
 	$.ajax(
 		{
 		type:"get",
-		url:"js/brand_temai.json",
+		url:"mock/brand_temai.json",
 		dataType:"json",
 		success:function(data){
 			brandtemai();
@@ -182,7 +182,7 @@ window.onload = function(){
 	$.ajax(
 		{
 		type:"get",
-		url:"js/series_list.json",
+		url:"mock/series_list.json",
 		dataType:"json",
 		success:function(data){
 			serieslist();

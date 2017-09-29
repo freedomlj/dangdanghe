@@ -3,7 +3,7 @@ window.onload=function(){
 	//main_con
 	$.ajax({
 		type:"get",
-		url:"js/category_bbq.json",
+		url:"../mock/category_bbq.json",
 		dataType:"json",
 		success:function(data){
 			var pagelen=12;
