@@ -3,7 +3,7 @@
 	$username = $_REQUEST["username"];
 	//在数据库中查询是否有这条数据的用户信息
 	//连接数据库服务器
-	mysql_connect("localhost","root","root");
+	$con = mysql_connect("localhost","root","root");
 	//选择数据库
 	mysql_select_db("project");
 	//创建查询SQL语句
