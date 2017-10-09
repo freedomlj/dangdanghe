@@ -89,7 +89,7 @@
 					$.post("register.php",user,function(data){
 						if(data.status==1){
 							alert("注册成功");
-							location = "index.html";
+							location = "http://localhost/dangdanghe/dangdanghe/index.html";
 						}else{
 							alert("注册失败，请重新填写信息");
 						}

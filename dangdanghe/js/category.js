@@ -6,6 +6,7 @@ window.onload=function(){
 		url:"../mock/category_bbq.json",
 		dataType:"json",
 		success:function(data){
+			//获取后台数据生成商品页表和页数
 			var pagelen=12;
 			var len=data.length;
 			var num=Math.ceil(len/pagelen);
@@ -27,7 +28,7 @@ window.onload=function(){
 				var str="";
 				for(var i=n*pagelen;i<Math.min(len,(n+1)*pagelen);i++){
 					str+=`<a href="##">
-							<dl>
+							<dl data-id=${data[i].id}>
 								<dt><img src="${data[i].img}"/></dt>
 								<dd>
 									<b>${data[i].price}</b>

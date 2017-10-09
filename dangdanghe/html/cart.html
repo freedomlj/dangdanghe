@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="../css/case.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/cart.css"/>
+	</head>
+	<body>
+		<script src="../js/jquery-1.11.3.js"></script>
+		<script src="../js/jquery.cookie.js"></script>
+		
+		<!--top-->
+		<div class="top">
+			<div class="logo">
+				<h1>
+					<a href="##"><span>铛铛盒</span></a>
+				</h1>
+			</div>
+			
+			<a href="##" id="home">铛铛盒生鲜配送首页</a>
+			<a href="##" id="user"></a>
+			<a href="##" id="exit">退出</a>
+			
+			<ul>
+				<li><em>1</em>我的购物车</li>
+				<i></i>
+				<li class="jt"></li>
+				<li><em>2</em>确认订单信息</li>
+				<li class="jt"></li>
+				<li><em>3</em>成功提交订单</li>
+			</ul>
+		</div>
+		
+		<!--main-->
+		<div class="main">
+			<div class="top-next">
+				<a href="##" class="btn_g btn">去结算</a>
+				<a href="##" class="btn_b btn">继续购物</a>
+			</div>
+			
+			<div class="cartbox">
+				<div class="hd">
+					<span class="goods_num"><em id="goods_nums">0</em>件商品</span>
+					<span class="goods_price">单价</span>
+					<span>数量</span>
+					<span>小计</span>
+				</div>
+				
+				<ul id="list">
+					
+				</ul>
+				
+			</div>
+			
+			<div class="cart_clear">
+				<a href="##" id="clearall">清空购物车</a>
+				<p><em>0</em>件商品，总价：<b>￥<i id="total">0</i>元</b></p>
+			</div>
+			
+			<div class="cart_end">
+				<a href="##" class="btn_b btn">继续购物</a>
+				<a href="##" class="btn_g btn">去结算</a>
+			</div>
+			
+			
+		</div>
+		
+		
+		<!--footer-->
+		<div id="footer">
+			<script>
+				$("#footer").load("footer.html");
+			</script>
+		</div>
+	</body>
+	<script src="../js/cart.js"></script>
+</html>

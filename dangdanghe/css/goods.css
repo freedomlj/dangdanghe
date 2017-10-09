@@ -732,7 +732,7 @@ body{
 	border-top: 1px solid #ccc;
 	width: 968px;
 }
-#main .detail_box .taocan .introduce_box .tab-con>p{
+#main .detail_box .taocan .introduce_box .tab-con .tab-con-item>p{
 	width: 927px;
 	height: 35px;
 	margin: 0 auto;
@@ -745,8 +745,8 @@ body{
 
 #main .detail_box .taocan .introduce_box .tab-con .tab-con-item{
 	width: 968px;
-	
 }
+
 
 #main .detail_box .taocan .introduce_box .tab-con p b{
 	width: 186px;

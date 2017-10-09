@@ -116,7 +116,7 @@ window.onload = function(){
 								<em>${data[i].price}</em>
 								<del>${data[i].del}</del>
 								<span>${data[i].sales}</span>
-								<a href="##">立即抢购</a>
+								<a href="http://localhost/dangdanghe/dangdanghe/html/goods.html">立即抢购</a>
 							</div>
 						</div>
 					</li>`

@@ -52,7 +52,7 @@
 									if($("#remember").prop("checked")){
 										$.cookie("userName",$(".username").val(),{expires:7})
 									}
-									location = "index.html";
+									location = "http://localhost/dangdanghe/dangdanghe/index.html";
 								}else{
 									$("#error").html("用户名或密码错误")
 								}
