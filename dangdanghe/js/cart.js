@@ -108,6 +108,23 @@ $(function(){
 		total();
 	})
 	
+	oList.on('change','.num',function(){
+		if($(this).val()<=0){
+			$(this).val("1");
+		}
+		var numId=$(this).parent().parent().attr("data-id");
+		data2[numId]=$(this).val();
+		var objstr=JSON.stringify(data2);
+		$.cookie("cart",objstr,{expires:10});
+		//计算小计
+		var oLi = $("#list>li");
+		var len = oLi.length;
+		for(var i=0;i<len;i++){
+			$(".p-sum>span").eq(i).html($(".p-price>span").eq(i).html().substr(1)*$(".num").eq(i).val())
+		}
+		total();
+	})
+	
 	
 	//清空购物车
 	$("#clearall").click(function(){
@@ -128,6 +145,7 @@ $(function(){
 		$("#total").html(all);
 		//计算商品数
 		$("#goods_nums").html(len);
+		$("#cart_num").html(len)
 	}
 	
 			

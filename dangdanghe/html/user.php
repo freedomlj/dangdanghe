@@ -50,7 +50,7 @@
 							$.get("login.php",{username:$(".username").val(),password:$(".password").val()},function(data){
 								if(data.status==1){
 									if($("#remember").prop("checked")){
-										$.cookie("userName",$(".username").val(),{expires:7})
+										$.cookie("userName",$(".username").val(),{expires:7,path:"/"});
 									}
 									location = "http://localhost/dangdanghe/dangdanghe/index.html";
 								}else{

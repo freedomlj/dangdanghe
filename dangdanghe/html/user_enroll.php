@@ -65,6 +65,7 @@
 				</div>
 				
 			</div>
+			<script src="../js/jquery.cookie.js"></script>
 			<script>
 				$(".username").on("blur",function(){
 					var _this=$(this);
@@ -89,6 +90,7 @@
 					$.post("register.php",user,function(data){
 						if(data.status==1){
 							alert("注册成功");
+							$.cookie("userName",$(".username").val(),{path:"/"})
 							location = "http://localhost/dangdanghe/dangdanghe/index.html";
 						}else{
 							alert("注册失败，请重新填写信息");

@@ -6,7 +6,7 @@
 		<div class="header">
 			<div class="hd_bar">
 				<a href="##">收藏铛铛盒生鲜配送</a>
-				<a href="http://localhost/dangdanghe/dangdanghe/html/user.php">请登录</a>
+				<a href="http://localhost/dangdanghe/dangdanghe/html/user.php" id="user">请登录</a>
 				<s>|</s>
 				<a href="http://localhost/dangdanghe/dangdanghe/html/user_enroll.php">免费注册</a>
 				
@@ -213,4 +213,27 @@
 				</div>
 			</div>
 		</div>
+		<script>
+			$(function(){
+				var user = $("#user");
+				var userName = $.cookie("userName");
+				if(userName!=undefined){
+					user.html(userName);
+					$("#user").next().remove();
+					$("#user").next().html("[退出]");
+					$("#user").next().attr("href","")
+					$("#user").next().click(function(){
+						$.cookie("userName",'',{expires:-1,path:"/"});
+						location.reload();
+					})
+				}
+
+			})
+			
+			
+			
+		</script>
+		
+		
+		
 		
