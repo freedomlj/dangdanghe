@@ -14,17 +14,17 @@
 		<div class="top">
 			<div class="logo">
 				<h1>
-					<a href="##"><span>铛铛盒</span></a>
+					<a href="http://localhost/dangdanghe/dangdanghe/index.html"><span>铛铛盒</span></a>
 				</h1>
 			</div>
 			
-			<a href="##" id="home">网站首页</a>
+			<a href="http://localhost/dangdanghe/dangdanghe/index.html" id="home">网站首页</a>
 		</div>
 		
 		<!--main-->
 		<div class="main">
 			<div class="login">
-				<h2>登录<em id="error"></em><span>没有账号？<a href="##">点击注册</a></span></h2>
+				<h2>登录<em id="error"></em><span>没有账号？<a href="http://localhost/dangdanghe/dangdanghe/html/user_enroll.php">点击注册</a></span></h2>
 				
 				<div class="login_box">
 					<form action="" method="post" onsubmit="">
@@ -51,6 +51,8 @@
 								if(data.status==1){
 									if($("#remember").prop("checked")){
 										$.cookie("userName",$(".username").val(),{expires:7,path:"/"});
+									}else{
+										$.cookie("userName",$(".username").val(),{path:"/"});
 									}
 									location = "http://localhost/dangdanghe/dangdanghe/index.html";
 								}else{
