@@ -304,6 +304,7 @@ body{
 .header .hd_nav .ha_nav_bd .sub_nav ul{
 	height: 35px;
 }
+.li_active{background: #1E9246;}
 .header .hd_nav .ha_nav_bd .sub_nav ul li{
 	float: left;
 	height: 35px;

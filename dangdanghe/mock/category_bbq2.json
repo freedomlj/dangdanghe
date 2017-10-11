@@ -1,0 +1,51 @@
+[
+{	"id":1,
+	"img":"http://127.0.0.1:8020/dangdanghe/img/proimg/23_thumb_G_1456782147644.jpg",
+	"price":"￥10.80元",
+	"name":"自助火锅食材 老肉片 半成品",
+	"sales":0
+},
+{
+	"id":2,
+	"img":"http://127.0.0.1:8020/dangdanghe/img/proimg/24_thumb_G_1456782148272.jpg",
+	"price":"￥10.80元",
+	"name":"自助火锅食材 鲜毛肚 半成品",
+	"sales":0
+},{
+	"id":3,
+	"img":"http://127.0.0.1:8020/dangdanghe/img/proimg/25_thumb_G_1456782148204.jpg",
+	"price":"￥12.00元",
+	"name":"自助火锅食材 鲜鸭肠 半成品",
+	"sales":0
+},{
+	"id":4,
+	"img":"http://127.0.0.1:8020/dangdanghe/img/proimg/26_thumb_G_1456782148819.jpg",
+	"price":"￥7.00元",
+	"name":"自助火锅食材 发牛黄喉 半成品",
+	"sales":0
+},{
+	"id":5,
+	"img":"http://127.0.0.1:8020/dangdanghe/img/proimg/27_thumb_G_1456782149886.jpg",
+	"price":"￥6.00元",
+	"name":"自助火锅食材 土豆片 半成品",
+	"sales":0
+},{
+	"id":6,
+	"img":"http://127.0.0.1:8020/dangdanghe/img/proimg/28_thumb_G_1456782149460.jpg",
+	"price":"￥6.00元",
+	"name":"自助火锅食材 莴笋头 半成品",
+	"sales":0
+},{
+	"id":7,
+	"img":"http://127.0.0.1:8020/dangdanghe/img/proimg/29_thumb_G_1456782150430.jpg",
+	"price":"￥6.00元",
+	"name":"自助火锅食材 金针菇 半成品",
+	"sales":0
+},{
+	"id":8,
+	"img":"http://127.0.0.1:8020/dangdanghe/img/proimg/30_thumb_G_1456782150164.jpg",
+	"price":"￥6.00元",
+	"name":"自助火锅食材 鲜藕片 半成品",
+	"sales":0
+}
+]

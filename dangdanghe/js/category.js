@@ -1,9 +1,19 @@
 window.onload=function(){
 	
+	//获取地址栏的id号
+	 var url = location.href;
+	 var id = url.substr(url.indexOf("?")+4);
+	 console.log(id)
+	 var aA = $(".sub_nav_ul>li");
+	 for(var i=0;i<aA.length;i++){
+	 	aA.eq(i).removeClass("li_active");
+	 }
+	 aA.eq(id).addClass("li_active");
+	
 	//main_con
 	$.ajax({
 		type:"get",
-		url:"../mock/category_bbq.json",
+		url:"../mock/category_bbq"+id+".json", //根据id号调用对应的JSON数据
 		dataType:"json",
 		success:function(data){
 			//获取后台数据生成商品页表和页数
@@ -48,7 +58,6 @@ window.onload=function(){
 				numTab()
 			})
 			
-			
 			$("#pagelist_next").click(function(){
 				if(now==num-1){
 					return
@@ -57,8 +66,6 @@ window.onload=function(){
 				datapage(now);
 				numTab()
 			})
-			
-			
 //			search_btn
 			$("#search_btn>.last").click(function(){
 				if(now==0){
@@ -67,7 +74,6 @@ window.onload=function(){
 				now--;
 				datapage(now);
 				numTab()
-				
 			})
 
 			$("#search_btn>.next").click(function(){
@@ -83,9 +89,6 @@ window.onload=function(){
 				$("#search_nowpage").html(now+1);
 				$(".page").eq(now).css({"border-color":"#09C762","color":"#09C762"}).siblings().css({"border-color":"#ddd","color":"#333"})
 			}
-			
-			
-			
 		}
 	});
 	

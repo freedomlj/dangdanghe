@@ -1,0 +1,39 @@
+[
+{	"id":1,
+	"img":"http://127.0.0.1:8020/dangdanghe/img/proimg/31_thumb_G_1456782150091.jpg",
+	"price":"￥5.00元",
+	"name":"绿色净菜 黄秧白 精品包装",
+	"sales":0
+},
+{
+	"id":2,
+	"img":"http://127.0.0.1:8020/dangdanghe/img/proimg/32_thumb_G_1456782151306.jpg",
+	"price":"￥3.80元",
+	"name":"绿色净菜 精品莲白 精品包装",
+	"sales":0
+},{
+	"id":3,
+	"img":"http://127.0.0.1:8020/dangdanghe/img/proimg/33_thumb_G_1456782151109.jpg",
+	"price":"￥5.00元",
+	"name":"绿色净菜 精品无筋豆 精品包装",
+	"sales":0
+},{
+	"id":4,
+	"img":"http://127.0.0.1:8020/dangdanghe/img/proimg/34_thumb_G_1456782151586.jpg",
+	"price":"￥4.50元",
+	"name":"绿色净菜 精品洋葱 精品包装",
+	"sales":0
+},{
+	"id":5,
+	"img":"http://127.0.0.1:8020/dangdanghe/img/proimg/43_thumb_G_1456947044307.jpg",
+	"price":"￥8.80元",
+	"name":"绿色水果 精品脐橙 精品包装",
+	"sales":0
+},{
+	"id":6,
+	"img":"http://127.0.0.1:8020/dangdanghe/img/proimg/44_thumb_G_1456947108985.jpg",
+	"price":"￥12.80元",
+	"name":"绿色水果 精品桂圆 精品包装",
+	"sales":0
+}
+]
