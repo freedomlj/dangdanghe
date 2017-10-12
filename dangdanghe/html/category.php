@@ -65,9 +65,9 @@
 			<div class="search_num">
 				共<b id="all_pro"></b>个商品
 				<span id="search_btn">
-					<a href="##" class="last"></a>
+					<a href="##" class="last">&lt;</a>
 					<span id="search_nowpage">1</span><em>/</em><span id="search_allpage"></span>
-					<a href="##" class="next"></a>
+					<a href="##" class="next">&gt;</a>
 				</span>
 			</div>
 		</div>

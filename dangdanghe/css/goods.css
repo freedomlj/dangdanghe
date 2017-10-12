@@ -481,12 +481,14 @@ body{
 }
 
 #main .detail form .item-info ul li .num .number{
+	outline: none;
 	width: 66px;
 	height: 26px;
 	text-align: center;
 	float: left;
 }
 #main .detail form .item-info ul li .num .jj{
+	outline: none;
 	cursor: pointer;
 	width: 30px;
 	height: 32px;
